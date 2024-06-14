@@ -10,7 +10,7 @@
   <style>
     /* Add animation to "page content" */
     .animate-bottom {
-      position: abosulute;
+      position: absolute;
       -webkit-animation-name: animatebottom;
       -webkit-animation-duration: 1s;
       animation-name: animatebottom;
@@ -36,14 +36,38 @@
   
 </head>
 
-
+<body onload="myFunction()" style="margin:0; display:none;" id="myDiv" class="animate-bottom">
+  <div id="loader"></div>
+  <div class="banner">
+        <h1 class="headingText">Sophomore Portfolio</h1>
+    <div class="nav">
+      <!--<a class="navBtn" href="Artifacts/Experiences/exp.html">Experiences</a>-->
+      <a class="navBtn" href="Artifacts/Labs/labs.html">Labs</a>
+      <a class="navBtn" href="Artifacts/Games/games.html">Games</a>
+      <a class="navBtn" href="Artifacts/Projects/projects.html">Projects</a>
+    </div>
   </div>
   
 <br>
   
- 
+  <div class="container">
+    <div class="profile">
+      <h2>David Muratov</h2>
+      <img id="avatar" src="Images/Avatar.png">
+      <h3>Web Development Student</h3>
+      <hr>
+    </div>
+    <div class="about">
+     
+      <hr>
+      <h2>Click to view Experiences!</h2>
+      <div class="exp"
+      </div>
       
-      
+      <p id="P" style="text-align: left;"></p>
+    </div>
+    </div>
+  </div>
 </body>
 
 </html>
