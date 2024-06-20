@@ -3,14 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Sophmore Portfolio</title>
+  <title>David Muratov</title>
+  <link rel="icon" type="text/png" href="Images/Favicon2.png">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="script.js" defer></script>
 
   <style>
     /* Add animation to "page content" */
     .animate-bottom {
-      position: absolute;
+      position: relative;
       -webkit-animation-name: animatebottom;
       -webkit-animation-duration: 1s;
       animation-name: animatebottom;
@@ -58,10 +59,12 @@
       <hr>
     </div>
     <div class="about">
-     
       <hr>
       <h2>Click to view Experiences!</h2>
-      <div class="exp"
+      <div class="exp">
+        <img id="BE" src="Images/BE.png" width="180px" height="180px" alt="BE Logo" onclick="changeBEColor()">
+        
+        <img id="TAEHS" src="Images/TAEHS.png" width="180px" height="180px" alt="TAEHS Logo" onclick="changeTAEHSColor()">
       </div>
       
       <p id="P" style="text-align: left;"></p>
