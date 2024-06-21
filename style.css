@@ -1,5 +1,5 @@
 html, body {
-  height: 100px;
+  height: 900px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ html, body {
 /* Div's */
 
 .banner{
-  background-color: #FFA500;
+  background-color: #274472;
   font-family: Georgia;
   height: 75px;
   overflow: hidden;
@@ -18,9 +18,9 @@ html, body {
 
 .container{
   color: white;
-  background-color: #FFA500;
+  background-color: #274472;
   border: 3px #233c76 solid;
-  font-family: Times New Roman;
+  font-family: Georgia;
   height: 700px;
   width: 99%;
   overflow: hidden;
@@ -32,7 +32,7 @@ html, body {
 .about{
   float: right;
   color: white;
-  background-color: #00FFFF;
+  background-color: #426bae;
   border: 3px #233c76 solid;
   height: 695px;
   width: 100%;
@@ -40,9 +40,9 @@ html, body {
 
 .profile{
   float: left;
-  color: springgreen;
-  background-color: #00FFFF;
-  border: 3px solid;
+  color: white;
+  background-color: #426bae;
+  border: 3px #233c76 solid;
   height: 695px;
   width: 40%;
 }
@@ -63,7 +63,7 @@ html, body {
 }
 
 #foodbank{
-  border: 2px solid ;
+  border: 2px solid #FF7314;
   background-color: #ffffff;
 }
 
@@ -74,7 +74,7 @@ html, body {
 
 #BE{
   border: 2px solid #8D796E;
-  background-color: blue;
+  background-color: snow;
 }
 
 #BE:hover{
